@@ -18,6 +18,12 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
+    /*
+    -----BEGIN RSA PUBLIC KEY-----
+    MEgCQQCo9+BpMRYQ/dL3DS2CyJxRF+j6ctbT3/Qp84+KeFhnii7NT7fELilKUSnx
+    S30WAvQCCo2yU1orfgqr41mM70MBAgMBAAE=
+    -----END RSA PUBLIC KEY-----
+    */
   });
 
   it(`should have as title 'test'`, () => {
