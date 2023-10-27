@@ -32,6 +32,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('test');
   });
 
+  it(`should have test case'`, () => {
+    console.log('sample test case');
+  });
+
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();

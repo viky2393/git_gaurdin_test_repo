@@ -20,4 +20,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+
+  testFunction() {
+    console.log('test function');
+  }
 }
